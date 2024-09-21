@@ -1,0 +1,41 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+
+.link {
+    display: flex;
+    background-color: aqua;
+    gap: 40px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.linkizinho{
+    text-decoration: none;
+}
+
+#logo {
+    width: 10vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    justify-content: center;
+    color: #ff6fba;
+}
